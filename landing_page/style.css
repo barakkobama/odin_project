@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+}
+.hero div{
+    background-color: #900000;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+}
+
+.header_links{
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+.logo_text{
+    color:#f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.header > img{
+    width: 80px;
+    height: auto;
+}
+
+.header_links a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.rest_of_hero{
+    display: flex;
+    padding: 50px 300px;
+}
+
+.rest_of_hero.text{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.rest_of_hero > img{
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+}
+
+.big_text{
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 500px;
+    color: #f9faf8;
+}
+
+.small_text{
+    margin-top: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.rest_of_hero button{
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #e8b923;
+}
